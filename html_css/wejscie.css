@@ -1,0 +1,100 @@
+html, body {
+	background-color: #DFFEFF;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+}
+h3{
+	font-size: 30px;
+}
+h1{
+font-size: 60px;
+text-align: center;	
+
+}
+section{
+	font-size:20px
+}
+nav {
+	border-style:  solid;
+	border-color:black;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 2;
+	background-color: #11B6EB;
+	width:12%; 
+	float:left; 
+	padding:1%; 
+	overflow:hidden; 
+}
+nav ul li {
+	list-style-type: circle; 
+	padding:0 0 0 15px;
+}
+nav ul > li:hover  {
+   background-color: #fff;
+   opacity: 0.6;
+   transition: 0.3s;
+}
+nav ul > li:hover > a	{
+	color: #002080;
+}
+nav ul li a.aktualny{
+	opacity: 0.6;
+   background-color: #fff;
+	color: #002080;
+}
+footer { 
+	height:50px;
+	background:#000;
+	color:#fff;
+	text-align:center;
+	margin-top:15px;
+	padding:5px;
+}
+header { 
+	border-style: solid;
+	height:150px;	
+	background: #11B6EB; 
+	margin: 2px 0 20px 270px;
+	padding-bottom:10px;
+}
+#text { 
+	width:83%; 
+	background: #DFFEFF; 
+	float:right; 
+	padding:1%; 
+	overflow:hidden; 
+	
+}
+#ogolny { 
+	width:90%;
+	overflow:hidden;
+	margin:0 auto;
+	min-height:calc(100% - 52px); 
+	padding:1%; 
+}
+.zdjecie{
+	width: 510px;
+	height:500px;
+	float:right;
+	padding-left:10px;
+	padding-top:30px;
+}
+
+
+
+	
+	
+@media only screen and (max-width: 900px) {
+	nav {width:87.35%; position:absolute; height:90px; }
+	nav ul li {display: inline; }
+	nav ul li:after {content: " |";}
+	#content {width: 98%;position:relative; top: 20%; margin-top:1000px;}
+	img.zdjecie{display: none;}
+	header {margin: 0 0 2px 0;}
+	section{width: 98%;position:relative; top: 20%; margin-top: 110px;}
+}
+

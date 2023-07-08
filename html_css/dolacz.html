@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="dolacz.css" rel="stylesheet" type="text/css">
+			<title>Dołącz do nas! </title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+			
+			<div id="ogolny">
+				<header> 
+					<br>
+					<h1>Dołącz do nas!</h1> 
+				</header>
+				
+			<div id="text">
+			
+			<form action="wyslano.html">
+			<label>Wprowadz Imie: </label>
+			<input type="text" id="imie" name="imie" required>
+			<br>
+			<label>Wprowadz Nazwisko: </label>
+			<input type="text" id="nazwisko" name="nazwisko" required>
+			<br>
+			<label>Wprowadz date urodzenia: </label>
+			<input type="date" id="uro" name="uro" required>
+			<br>
+			<label for="tele">Wprowadz numer telefonu: </label>
+			<input type="tel" id="tele" name="tele" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br>
+			<small>Dopuszczalny format: xxx-xxx-xxx</small>
+			<br>
+			<input type="radio" id="m" name="plec" value="m" required>
+			<label for="m">Mężczyzna</label>
+			<br>
+			<input type="radio" id="k" name="plec" value="k" required>
+			<label for="k">Kobieta</label>
+			<br>
+			<label>Jak bardzo podoba się Tobie strona? (Prawo=fajen, Lewo=średnio)</label><br>
+			<input type="range" id="pod" name="pod" >
+			<br>
+			<input type="checkbox" id="akcept" name="akcept" required>
+			<label for="akcept">Akceptuję warunki</label>
+			<br>
+			<input type="reset" value="Resetuj wniosek">
+			<input type="submit" value="Wyslij wniosek">
+			</form>
+			<svg width="400" height="400">
+				<ellipse class="elipsa" cx="200" cy="80" rx="100" ry="50"/>
+			</svg>
+			<div class="pog"></div>
+			
+				
+			
+				
+			
+		</div>
+			
+		<nav>
+			<ul>
+					<li><a href="wejscie.html">Strona glówna (Historia)</a></li>
+					<li><a href="ryby.html">Rodzaje Ryb</a></li>
+					<li><a href="zrodla.html">Galeria i źródła</a></li>
+					<li><a href="wedkarze.html">Wędkarze</a></li>
+					<li><a class="aktualny" href="dolacz.html">Dołącz do nas!</a></li>					
+			</ul> 
+		</nav>
+		
+		
+		
+	</div>
+		<footer>
+			 Adam Skorecki, EiT gr.II
+		</footer>
+	</body>
+</html>
+
